@@ -60,6 +60,6 @@ public partial class PageTest
     [Benchmark(Baseline = true)]
     public void Method1()
     {
-        var result = PageMethod1("john", 625, 10);
+        var result = PageMethod1("john", 871, 10);
     }
 }

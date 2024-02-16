@@ -4,7 +4,10 @@ global using NpgsqlTypes;
 using PageBenchmarks;
 using BenchmarkDotNet.Running;
 
-Functions.Recreate();
+Functions.RecreatePageMethod7();
+Functions.RecreatePageMethod8();
+Functions.RecreatePageMethod9();
+
 BenchmarkRunner.Run<PageTest>();
 
 // BenchmarkRunner

@@ -79,6 +79,6 @@ public partial class PageTest
     [Benchmark]
     public void Method6()
     {
-        var result = PageMethod6("john", 625, 10);
+        var result = PageMethod6("john", 871, 10);
     }
 }

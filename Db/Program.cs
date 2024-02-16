@@ -3,7 +3,7 @@ using Npgsql;
 using Norm;
 using static System.Console;
 
-const int numberOfCustomers = 100_000;
+const int numberOfCustomers = 200_000;
 const int minAddresses = 1;
 const int maxAddresses = 15;
 
@@ -85,9 +85,7 @@ Line("Done!", ConsoleColor.Green);
 
 static void Line(string message, ConsoleColor color = ConsoleColor.Yellow)
 {
-    WriteLine();
     ForegroundColor = color;
     WriteLine(message);
     ResetColor();
-    WriteLine();
 }
